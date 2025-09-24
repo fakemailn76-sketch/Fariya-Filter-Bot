@@ -13,7 +13,7 @@ try:
 except Exception:
     register_group_for_user = None
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8494665413:AAEe3bOR3C40Y8WujQ30jEoYKLeL3tV9mG0")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8322237504:AAGBibiFwi8LbPDlPpTPbwlSctQV4L0JnwQ")
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
 
 # ---------- Helpers ----------
